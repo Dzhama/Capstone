@@ -244,8 +244,7 @@ header .mobile {
   margin: 0 auto;
 }
 .feature .content {
-  height: 9.687rem;
-  padding-top: 2.5rem;
+  padding: 2.5rem 0;
 }
 .feature h2 {
   padding-bottom: .5rem;
@@ -284,7 +283,10 @@ header .mobile {
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .feature .image-container {
+    width: 100%;
   }
 }
 
@@ -293,6 +295,8 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
 }
 
 #filters-section .content {
@@ -316,6 +320,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 
@@ -353,6 +358,7 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 5rem;
 }
 
 #quotes-section content {
@@ -377,7 +383,7 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
